@@ -1,0 +1,8 @@
+x = int(input("Enter a value fo X: "))
+y = int(input("Enter a value fo Y: "))
+print(f"\n{x} > {y} = {x > y} ")
+print(f"{x} >= {y} = {x >= y} ")
+print(f"{x} < {y} = {x < y} ")
+print(f"{x} <= {y} = {x <= y} ")
+print(f"{x} == {y} = {x == y} ")
+print(f"{x} != {y} = {x != y} ")
