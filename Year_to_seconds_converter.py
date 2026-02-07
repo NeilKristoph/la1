@@ -1,4 +1,4 @@
-print("\n===Years to Seconds Converter===")
+print("===Years to Seconds Converter===\n")
 years = int(input("How many years do you want to convert? "))
 seconds = years * 31536000
 print(f"{years} Year(s) is {seconds} Seconds.")
