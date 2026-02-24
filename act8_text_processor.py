@@ -1,0 +1,15 @@
+print("===== text_processor =====\n")
+sentence = input("Input a sentence: ")
+count = sentence.count("a") + sentence.count("A")
+replace_spaces = sentence.replace(" ", "_")
+sentence_split = sentence.split()
+result = "\n".join(sentence_split)
+
+
+print(sentence.upper())
+print(sentence.lower())
+print(sentence.title())
+print(f"Number of 'a' letters: {count}")
+print(sentence.strip())
+print(replace_spaces)
+print(result)
