@@ -1,0 +1,15 @@
+twoD_list = [
+    ["neil" , 93 , 94 , 95],
+    ["charles" , 90 , 91 , 92],
+    ["abesamis" , 87 , 88 , 89],
+    ["malsi" , 84 , 85 , 86]
+]
+print("Grade Book")
+for student in twoD_list:
+    print(student)
+print(f"\nThe grade of the 2nd students quiz 2 is: {twoD_list[1][2]}")
+updated_list = twoD_list[2][1] = 100
+
+print("\nUpdated Grade Book")
+for student in twoD_list:
+    print(student)
