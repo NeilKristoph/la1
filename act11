@@ -1,0 +1,20 @@
+listahan = ["abesamis" , "charles" , "malsi" , "robin" , "dominic"]
+print(" Original list\n",listahan, "\n")
+
+listahan.append("asufre")
+listahan.insert(3,"kyle")
+listahan[2] = "neil"
+
+print(" Updated list\n",listahan, "\n")
+
+inalis_1 = listahan.remove("dominic")
+print(" Updated list\n",listahan, "\n")
+
+inalis_2 = listahan.pop()
+
+print(f" {inalis_2} has been removed")
+length = len(listahan)
+
+
+print("\n Updated list\n",listahan, "\n")
+print(f" {length} is the length of your list")
